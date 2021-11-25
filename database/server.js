@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect(process.env.MONGO, (err) => {
+mongoose.connect(process.env.DB, (err) => {
     if(err) {
         console.log('Connection to database failed!');
     }
