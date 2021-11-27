@@ -5,9 +5,9 @@
 *       
 *       
 */
-const Server = require('../database/server');
 
 'use strict';
+const Server = require('../database/server');
 
 module.exports = function (app) {
 
